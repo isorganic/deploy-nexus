@@ -174,7 +174,7 @@ module.exports = {
   solidity: "0.8.20",
   networks: {
     nexus: {
-      url: "https://rpc.nexus.xyz/http",  // Nexus RPC URL
+      url: "https://nexus.rpc.caldera.xyz/",  // Nexus RPC URL
       chainId: 392,  // Nexus Chain ID
       accounts: [process.env.PRIVATE_KEY],
     },
